@@ -1,0 +1,41 @@
+# logical operators = used on conditional statements
+
+#              and = checks two or more conditions are True
+#               or = checks if at least one condition is True
+#              not = True if condition is False, and vice versa
+
+
+# temp = 25
+# temp = -10
+# temp = 40
+temp = 20
+
+sunny = True
+
+# ============= AND ===============
+
+# if temp > 0 and temp < 30:
+#     print("The temperature is good")
+# else:
+#     print("The temperatue is not good")
+
+
+# ============= OR ===============
+
+if temp <= 0 or temp >= 30:
+    print("The temperature is bad")
+else:
+    print("The temperatue is good")
+
+# if sunny:
+#     print("It is sunny outside")
+# else:
+#     print("It is cloudy outside")
+
+
+# ============= NOT ===============
+
+if not sunny:
+    print("It is cloudy outside")
+else:
+    print("It is sunny outside")
