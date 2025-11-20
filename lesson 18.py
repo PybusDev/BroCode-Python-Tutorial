@@ -1,29 +1,50 @@
-# Python compound interest calculator
+# for loops = execute a block of code a fixed number of times.
+#                     You can iterate over a range, string, sequence, etc.
 
-principle = 0 # Money Amount
-rate = 0
-time = 0
+# ============ EXERCISE 1 ================
 
-while True:
-    principle = float(input("Enter the principle amount: "))
-    if principle < 0:
-        print("Principle can't be less than zero")
-    else:
-        break
+# for x in range(1, 11):
+#    print(x)
 
-while True:
-    rate = float(input("Enter the interest rate: "))
-    if rate < 0:
-        print("Interest rate can't be less than zero")
-    else:
-        break
+# print("Happy New Year!")
 
-while True:
-    time = int(input("Enter the time in years: "))
-    if time < 0:
-        print("Time can't be less than zero")
-    else:
-        break
 
-total = principle * pow((1 + rate / 100), time)
-print(f"Balance after {time} year/s: ${total:.2f}")
+# ============ EXERCISE 2 ================
+
+# for x in reversed(range(1, 11)):
+#    print(x)
+
+# print("Happy New Year!")
+
+
+# ============ EXERCISE 3 ================
+
+# for x in range(1, 11, 2):
+#    print(x)
+
+
+# ============ EXERCISE 4 ================
+
+# credit_card = "1234-5678-9012-3456"
+
+# for x in credit_card:
+#    print(x)
+
+
+# ================ CONTINUE ================
+
+# for x in range(1, 21):
+#    if x == 13:
+#        continue
+#    else:
+#        print(x)
+
+
+# ================ BREAK ================
+
+for x in range(1, 21):
+   if x == 13:
+       break
+   else:
+       print(x)
+

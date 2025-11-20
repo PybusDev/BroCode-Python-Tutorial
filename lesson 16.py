@@ -1,21 +1,42 @@
-# BMI = Body Mass Index (Measure of Height and Weight to estimate body fat %)
-#       General estimate that doesn't account muscle vs fat
-#       Children have a different BMI chart
-#       BMI = weight(lbs/kg) / height(in/m)^2
+#while loop = perform some code WHILE some condition remains true
+
+# ============ EXERCISE 1 ================
+
+# name = input("Enter your name: ")
+
+# while name == "":
+#    print("You did not enter your name!")
+#    name = input("Enter your name: ")
+
+# print(f"Hello {name}")
+
+# ============ EXERCISE 2 ================
+
+# age = int(input("Enter your age: "))
+
+# while age < 0:
+#    print("Age can't be negative")
+#    age = int(input("Enter your age: "))
+
+# print(f"You are {age} years old")
 
 
-weight = float(input("Enter your weight in kilograms: "))
-height = float(input("Enter your height in meters: "))
+# ============ EXERCISE 3 ================
 
-bmi = weight / height ** 2
+# food = input("Enter a food you like (q to quit): ")
 
-print(f"Your BMI is: {bmi:.1f}")
+# while not food == "q":
+#    print(f"You like {food}")
+#    food = input("Enter another food you like (q to quit): ")
 
-if bmi < 18.5:
-    print("Category: Underweight")
-elif bmi < 25:
-    print("Category: Normal weight")
-elif bmi < 30:
-    print("Category: Overweight")
-else:
-    print("Category: Obese")
+# print("bye")
+
+# ============ EXERCISE 4 ================
+
+num = int(input("Enter a # between 1 - 10: "))
+
+while num < 1 or num > 10:
+    print(f"{num} is not valid")
+    num = int(input("Enter a # between 1 - 10: "))
+
+print(f"You picked the number {num}")

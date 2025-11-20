@@ -4,7 +4,7 @@
 # ========= STRINGS ===========
 
 # Strings
-first_name = "Chris"
+first_name = "Random"
 food = "pizza"
 email = "Random@example.com"
 

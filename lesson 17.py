@@ -1,42 +1,29 @@
-#while loop = perform some code WHILE some condition remains true
+# Python compound interest calculator
 
-# ============ EXERCISE 1 ================
+principle = 0 # Money Amount
+rate = 0
+time = 0
 
-# name = input("Enter your name: ")
+while True:
+    principle = float(input("Enter the principle amount: "))
+    if principle < 0:
+        print("Principle can't be less than zero")
+    else:
+        break
 
-# while name == "":
-#    print("You did not enter your name!")
-#    name = input("Enter your name: ")
+while True:
+    rate = float(input("Enter the interest rate: "))
+    if rate < 0:
+        print("Interest rate can't be less than zero")
+    else:
+        break
 
-# print(f"Hello {name}")
+while True:
+    time = int(input("Enter the time in years: "))
+    if time < 0:
+        print("Time can't be less than zero")
+    else:
+        break
 
-# ============ EXERCISE 2 ================
-
-# age = int(input("Enter your age: "))
-
-# while age < 0:
-#    print("Age can't be negative")
-#    age = int(input("Enter your age: "))
-
-# print(f"You are {age} years old")
-
-
-# ============ EXERCISE 3 ================
-
-# food = input("Enter a food you like (q to quit): ")
-
-# while not food == "q":
-#    print(f"You like {food}")
-#    food = input("Enter another food you like (q to quit): ")
-
-# print("bye")
-
-# ============ EXERCISE 4 ================
-
-num = int(input("Enter a # between 1 - 10: "))
-
-while num < 1 or num > 10:
-    print(f"{num} is not valid")
-    num = int(input("Enter a # between 1 - 10: "))
-
-print(f"You picked the number {num}")
+total = principle * pow((1 + rate / 100), time)
+print(f"Balance after {time} year/s: ${total:.2f}")

@@ -1,3 +1,5 @@
+# String Methods
+
 
 # name = input("Enter your name: ")
 
