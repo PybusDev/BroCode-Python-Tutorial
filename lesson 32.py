@@ -11,7 +11,7 @@ def happy_birthday(name, age):
 happy_birthday("Steve", 20)
 
 
-# ----------  EXAMPLE 1  ---------- 
+# ============ EXERCISE 1 ================
 def display_invoice(username, amount, due_date):
    print(f"Hello {username}")
    print(f"Your bill of ${amount:.2f} is due: {due_date}")
@@ -20,7 +20,7 @@ def display_invoice(username, amount, due_date):
 # display_invoice("JoeSchmo", 100.01, "01/02")
 
 
-# ----------  EXAMPLE 2  ---------- 
+# ============ EXERCISE 2 ================
 def create_name(first, last):
     first = first.capitalize()
     last = last.capitalize()
