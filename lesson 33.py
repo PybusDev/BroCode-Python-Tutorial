@@ -11,6 +11,7 @@ def net_price(list_price, discount=0, tax=0.05):
 # print(net_price(500, 0.1))
 # print(net_price(500, 0.1, 0))
 
+
 # ============ EXERCISE 1 ================
 import time
 
