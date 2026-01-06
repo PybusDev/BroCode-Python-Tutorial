@@ -1,6 +1,7 @@
 # Python writing files (.txt, .json, .csv)
 
 
+
 # ============ .txt ============
 
 txt_data = "I like pizza!"
@@ -13,6 +14,7 @@ try:
       print(f".txt file '{file_path}' has been created successfully")
 except FileExistsError:
    print("That file already exists")
+
 
 
 # =========== .json ============
@@ -34,6 +36,7 @@ try:
     print(f"JSON file '{file_path}' has been created successfully")
 except FileExistsError:
     print("That file already exists!")
+
 
 
 # ============ .csv ============
