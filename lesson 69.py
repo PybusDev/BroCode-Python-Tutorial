@@ -1,6 +1,9 @@
 # Python writing files (.txt, .json, .csv)
 
-# --------- .txt ---------
+
+
+# ============ .txt ============
+
 txt_data = "I like pizza!"
 
 file_path = "output.txt"
@@ -12,7 +15,9 @@ try:
 except FileExistsError:
    print("That file already exists")
 
-# --------- .json ---------
+
+
+# =========== .json ============
 
 import json
 
@@ -32,7 +37,10 @@ try:
 except FileExistsError:
     print("That file already exists!")
 
-# --------- .csv---------
+
+
+# ============ .csv ============
+
 import csv
 
 employees = [["Name", "Age", "Job"],
