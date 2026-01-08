@@ -21,13 +21,15 @@ for n in count_to(number):
 
 
 # ============ EXAMPLE 2 ============
+# Add your own filepath
+
 
 # def read_file(file_path):
 #    with open(file_path) as file:
 #        for line in file:
 #            yield line.strip()
 
-# filepath = "C:\\Test\\Test.txt" # Add your own filepath
+# filepath = "C:\\Test\\Test.txt" 
 
 # for line in read_file(filepath):
 #    print(line)
