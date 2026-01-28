@@ -49,7 +49,7 @@ class MainWindow(QMainWindow):
         # central_widget.setLayout(hbox)
 
         # GRID LAYOUT
-        # -----------------
+        # ==================
         grid = QGridLayout()
 
         grid.addWidget(label1, 0, 0)
